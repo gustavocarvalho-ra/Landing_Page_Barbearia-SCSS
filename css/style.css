@@ -5,6 +5,38 @@
   outline: 0;
 }
 
+header {
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+i {
+  color: #fff;
+}
+
+.header-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.header-icons a:hover i {
+  animation: traslateY 0.8s infinite alternate;
+  color: #d34040;
+}
+
+@keyframes traslateY {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-8px) scale(1.1);
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
