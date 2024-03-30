@@ -77,6 +77,11 @@ i {
     display: none;
   }
 }
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
