@@ -211,6 +211,10 @@
   .haircuts {
     flex-direction: column;
     gap: 25px;
+
+    img {
+      max-width: 700px;
+    }
   }
 
 }
