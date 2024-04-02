@@ -188,3 +188,12 @@
   transform: scale(1.2);
   z-index: 1;
 }
+
+.haircut-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  background-color: $white-normal;
+  z-index: 2;
+}

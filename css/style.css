@@ -249,6 +249,15 @@ i {
   z-index: 1;
 }
 
+.haircut-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  background-color: #fff;
+  z-index: 2;
+}
+
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
