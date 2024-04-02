@@ -235,7 +235,7 @@ i {
   flex-direction: column;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px -1px 15px 2px rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
 .haircut img {
@@ -256,6 +256,14 @@ i {
   padding: 14px;
   background-color: #fff;
   z-index: 2;
+}
+.haircut-info button {
+  color: #fff;
+  background-color: #d94140;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 0;
+  cursor: default;
 }
 
 body {
