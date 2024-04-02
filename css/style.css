@@ -245,7 +245,7 @@ i {
 }
 
 .haircut img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   z-index: 1;
 }
 
@@ -266,6 +266,12 @@ i {
   cursor: default;
 }
 
+@media screen and (max-width: 768px) {
+  .haircuts {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
