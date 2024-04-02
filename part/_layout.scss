@@ -182,11 +182,11 @@
     max-width: 354px;
     transition: transform 0.2s;
   }
-}
 
-.haircut img:hover {
-  transform: scale(1.1);
-  z-index: 1;
+  img:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
 }
 
 .haircut-info {
@@ -232,4 +232,20 @@
   display: flex;
   gap: 8px;
   color: $white-normal;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 14px;
+  right: 24px;
+  z-index: 5;
+
+  img {
+    max-width: 60px;
+    transition: transform .4s;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
 }
