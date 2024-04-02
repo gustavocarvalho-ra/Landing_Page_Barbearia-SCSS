@@ -258,7 +258,7 @@
   left: -144px;
   background-color: $black-normal;
   color: $white-normal;
-  padding: 4px;
+  padding: 6px;
   border-radius: 8px;
   text-align: center;
   opacity: 0;
@@ -268,4 +268,12 @@
 .btn-whatsapp:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-whatsapp {
+    img {
+      max-width: 55px;
+    }
+  }
 }
