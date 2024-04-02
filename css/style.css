@@ -221,6 +221,12 @@ i {
   max-width: 780px;
 }
 
+.haircuts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
