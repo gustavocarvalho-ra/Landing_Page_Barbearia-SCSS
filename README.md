@@ -1,4 +1,6 @@
-﻿# Landing_Page_Barbearia-SCSS
+﻿# Barbearia
+
+## Projeto realizado utilizado CSS
 
 
 ![a](https://github.com/gustavocarvalho-ra/Landing_Page_Barbearia-SCSS/assets/137126878/72928128-f46f-4749-b895-9c1aa387c531)
